@@ -1,0 +1,6 @@
+mysqldb:
+  type: mysql:10.4
+  disk: 3000
+  configuration:
+    properties:
+      max_allowed_packet: 64
